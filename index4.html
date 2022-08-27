@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link
+		rel="stylesheet"
+		type="text/css"
+		href="style/style4.css"
+	/>
+	<meta charset="utf-8">
+	<title>Мои таблицы</title>
+</head>
+<body>
+	<table>
+		<caption>Квартальный отчёт</caption>
+		<tr>
+			<th rowspan="2">Объединён по вертикали</th>
+			<th colspan="2">Объединён по горизонтали</th>
+		</tr>
+		<tr>
+			<td>Столбец2, Строка2</td>
+			<td>Столбец3, Строка2</td>
+		</tr>
+		<tr>
+			<td>Столбец1, Строка3</td>
+			<td>Столбец2, Строка3</td>
+			<td>Столбец3, Строка3</td>
+		</tr>
+	</table>
+	<h2>Домашнее задание</h2>
+	<table class="t1">
+		<caption>Таблица №1</caption>
+		<tr>
+			<td rowspan="3"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="stro222"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<table class="t2">
+		<caption>Таблица №2</caption>
+		<tr>
+			<td colspan="2"></td>
+			<td id="top22"></td>
+		</tr>
+		<tr>
+			<td class="stro333"></td>
+			<td colspan="2", rowspan="2" id="stro222">
+			<table class="int2">
+				<tr>
+					<td class="smoll2"></td>
+					<td rowspan="3"></td>
+					<td rowspan="2"></td>
+				</tr>
+				<tr>
+					<td rowspan="2"></td>
+				</tr>
+				<tr>
+					<td class="smoll2"></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="stro333"></td>
+		</tr>
+	</table>
+	<table class="stro444">
+		<label for="#oneform1">
+		<caption>Регистрация</caption>
+		<tr>
+			<td><label for="oneform1">Фамилия</label></td>
+			<td>
+				<form action="file.php" method="post" enctype="multipart/form-data">
+				<input id="oneform1" class="big11" type="text" name="surname"
+				placeholder="Фамилия">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td> <label for="twoform2">Имя</label></td>
+			<td>
+				<form action="file.php" method="post" enctype="multipart/form-data">
+				<input id="twoform2" class="big11" type="text" name="surname"
+				placeholder="Имя">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>Ваш пол:</td>
+			<td>
+				<div class="borderreg">
+				М: <input name="gender" type="radio" value="male" checked>
+				<label for="checkbox"></label>
+				</div>
+				<div class="borderreg">
+				Ж: <input name="gender" type="radio" value="femail">
+				<label for="checkbox"></label>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button>Отправить</button>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
