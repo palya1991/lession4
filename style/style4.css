@@ -58,12 +58,7 @@ border: 1px solid #00F;
 .int2 {
 	width: 500px;
 	height: 80px;
-	border-spacing: 0;
-	border-collapse: collapse;
-}
-
-#stro222 {
-	padding-left: 10px;
+	margin: 0 auto;
 }
 
 .stro444 {
